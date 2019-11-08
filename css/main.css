@@ -34,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: #d5d5d5;
+  background: #95ecbc;
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #04a776;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #60a86f;
 }
 
 
@@ -59,24 +59,27 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  #column-1, #column-2, #column-3{
+    width: 33.33%;
+  }
   header {
-    background-color: ;
+    background-color: #700874;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #789521;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #c381c5;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #a45677;
   }
 
   footer {
-    background-color: ;
+    background-color: #fa4563;
   }
   
 }
@@ -84,24 +87,25 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+
   header {
-    background-color: ;
+    background-color: #9fceee;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #645c74;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #b9ddb4;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #f7990e;
   }
 
   footer {
-    background-color: ;
+    background-color: #d4bf84;
   }
    
 }
